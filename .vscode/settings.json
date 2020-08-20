@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "eslint.validate": ["javascript"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "scss.lint.unknownAtRules": "ignore",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    ".tmp": true,
+    "build": true
+  },
+  "files.eol": "\n",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.preferences.importModuleSpecifier": "non-relative"
+}
